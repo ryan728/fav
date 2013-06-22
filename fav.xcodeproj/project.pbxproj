@@ -18,6 +18,7 @@
 		494B919C1775A1290033D754 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494B919B1775A1290033D754 /* Default-568h@2x.png */; };
 		494B919F1775A1290033D754 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B919D1775A1290033D754 /* MainStoryboard.storyboard */; };
 		494B91A21775A1290033D754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B91A11775A1290033D754 /* ViewController.m */; };
+		49BDFD211775AEA6005D92D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BDFD201775AEA6005D92D5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		494B919E1775A1290033D754 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		494B91A01775A1290033D754 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		494B91A11775A1290033D754 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49BDFD201775AEA6005D92D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BDFD211775AEA6005D92D5 /* CoreLocation.framework in Frameworks */,
 				494B91861775A1290033D754 /* UIKit.framework in Frameworks */,
 				494B91881775A1290033D754 /* Foundation.framework in Frameworks */,
 				494B918A1775A1290033D754 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		494B91791775A1290033D754 = {
 			isa = PBXGroup;
 			children = (
+				49BDFD201775AEA6005D92D5 /* CoreLocation.framework */,
 				494B918B1775A1290033D754 /* fav */,
 				494B91841775A1290033D754 /* Frameworks */,
 				494B91831775A1290033D754 /* Products */,
@@ -260,10 +264,15 @@
 		494B91A61775A1290033D754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fav/fav-Prefix.pch";
 				INFOPLIST_FILE = "fav/fav-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,10 +280,14 @@
 		494B91A71775A1290033D754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fav/fav-Prefix.pch";
 				INFOPLIST_FILE = "fav/fav-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +311,7 @@
 				494B91A71775A1290033D754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

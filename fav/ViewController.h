@@ -1,13 +1,9 @@
-//
-//  ViewController.h
-//  fav
-//
-//  Created by lei on 6/22/13.
-//  Copyright (c) 2013 lei. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CLLocationManager.h>
+#import <CoreLocation/CLLocationManagerDelegate.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;   
+}
 
 @end
