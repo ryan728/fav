@@ -19,6 +19,15 @@
 		494B919F1775A1290033D754 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B919D1775A1290033D754 /* MainStoryboard.storyboard */; };
 		494B91A21775A1290033D754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B91A11775A1290033D754 /* ViewController.m */; };
 		49BDFD211775AEA6005D92D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BDFD201775AEA6005D92D5 /* CoreLocation.framework */; };
+		49BDFD241775B5EE005D92D5 /* StadiumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BDFD231775B5EE005D92D5 /* StadiumTableViewController.m */; };
+		49BDFD271775B890005D92D5 /* Stadium.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BDFD261775B890005D92D5 /* Stadium.m */; };
+		49BDFD2E1775CE26005D92D5 /* chicago_bears.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD2B1775CE26005D92D5 /* chicago_bears.jpeg */; };
+		49BDFD2F1775CE26005D92D5 /* new_york_giants.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD2C1775CE26005D92D5 /* new_york_giants.jpeg */; };
+		49BDFD311775CE81005D92D5 /* baltimore_ravens.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD301775CE81005D92D5 /* baltimore_ravens.jpeg */; };
+		49BDFD331775D801005D92D5 /* nfl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD321775D801005D92D5 /* nfl.jpeg */; };
+		49BDFD371775E2CA005D92D5 /* met_life_stadium.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD341775E2CA005D92D5 /* met_life_stadium.jpeg */; };
+		49BDFD381775E2CA005D92D5 /* soldier_field.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD351775E2CA005D92D5 /* soldier_field.jpeg */; };
+		49BDFD391775E2CA005D92D5 /* m_t_bank_stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BDFD361775E2CA005D92D5 /* m_t_bank_stadium.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,17 @@
 		494B91A01775A1290033D754 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		494B91A11775A1290033D754 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		49BDFD201775AEA6005D92D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		49BDFD221775B5EE005D92D5 /* StadiumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumTableViewController.h; sourceTree = "<group>"; };
+		49BDFD231775B5EE005D92D5 /* StadiumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StadiumTableViewController.m; sourceTree = "<group>"; };
+		49BDFD251775B890005D92D5 /* Stadium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stadium.h; sourceTree = "<group>"; };
+		49BDFD261775B890005D92D5 /* Stadium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stadium.m; sourceTree = "<group>"; };
+		49BDFD2B1775CE26005D92D5 /* chicago_bears.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicago_bears.jpeg; sourceTree = "<group>"; };
+		49BDFD2C1775CE26005D92D5 /* new_york_giants.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_york_giants.jpeg; sourceTree = "<group>"; };
+		49BDFD301775CE81005D92D5 /* baltimore_ravens.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baltimore_ravens.jpeg; sourceTree = "<group>"; };
+		49BDFD321775D801005D92D5 /* nfl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl.jpeg; sourceTree = "<group>"; };
+		49BDFD341775E2CA005D92D5 /* met_life_stadium.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = met_life_stadium.jpeg; sourceTree = "<group>"; };
+		49BDFD351775E2CA005D92D5 /* soldier_field.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_field.jpeg; sourceTree = "<group>"; };
+		49BDFD361775E2CA005D92D5 /* m_t_bank_stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m_t_bank_stadium.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +79,7 @@
 		494B91791775A1290033D754 = {
 			isa = PBXGroup;
 			children = (
-				49BDFD201775AEA6005D92D5 /* CoreLocation.framework */,
+				49BDFD291775CE26005D92D5 /* images */,
 				494B918B1775A1290033D754 /* fav */,
 				494B91841775A1290033D754 /* Frameworks */,
 				494B91831775A1290033D754 /* Products */,
@@ -77,6 +97,7 @@
 		494B91841775A1290033D754 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49BDFD201775AEA6005D92D5 /* CoreLocation.framework */,
 				494B91851775A1290033D754 /* UIKit.framework */,
 				494B91871775A1290033D754 /* Foundation.framework */,
 				494B91891775A1290033D754 /* CoreGraphics.framework */,
@@ -93,6 +114,10 @@
 				494B91A01775A1290033D754 /* ViewController.h */,
 				494B91A11775A1290033D754 /* ViewController.m */,
 				494B918C1775A1290033D754 /* Supporting Files */,
+				49BDFD221775B5EE005D92D5 /* StadiumTableViewController.h */,
+				49BDFD231775B5EE005D92D5 /* StadiumTableViewController.m */,
+				49BDFD251775B890005D92D5 /* Stadium.h */,
+				49BDFD261775B890005D92D5 /* Stadium.m */,
 			);
 			path = fav;
 			sourceTree = "<group>";
@@ -109,6 +134,21 @@
 				494B919B1775A1290033D754 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BDFD291775CE26005D92D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				49BDFD341775E2CA005D92D5 /* met_life_stadium.jpeg */,
+				49BDFD351775E2CA005D92D5 /* soldier_field.jpeg */,
+				49BDFD361775E2CA005D92D5 /* m_t_bank_stadium.jpg */,
+				49BDFD301775CE81005D92D5 /* baltimore_ravens.jpeg */,
+				49BDFD321775D801005D92D5 /* nfl.jpeg */,
+				49BDFD2B1775CE26005D92D5 /* chicago_bears.jpeg */,
+				49BDFD2C1775CE26005D92D5 /* new_york_giants.jpeg */,
+			);
+			name = images;
+			path = fav/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +207,13 @@
 				494B919A1775A1290033D754 /* Default@2x.png in Resources */,
 				494B919C1775A1290033D754 /* Default-568h@2x.png in Resources */,
 				494B919F1775A1290033D754 /* MainStoryboard.storyboard in Resources */,
+				49BDFD2E1775CE26005D92D5 /* chicago_bears.jpeg in Resources */,
+				49BDFD2F1775CE26005D92D5 /* new_york_giants.jpeg in Resources */,
+				49BDFD311775CE81005D92D5 /* baltimore_ravens.jpeg in Resources */,
+				49BDFD331775D801005D92D5 /* nfl.jpeg in Resources */,
+				49BDFD371775E2CA005D92D5 /* met_life_stadium.jpeg in Resources */,
+				49BDFD381775E2CA005D92D5 /* soldier_field.jpeg in Resources */,
+				49BDFD391775E2CA005D92D5 /* m_t_bank_stadium.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +227,8 @@
 				494B91921775A1290033D754 /* main.m in Sources */,
 				494B91961775A1290033D754 /* AppDelegate.m in Sources */,
 				494B91A21775A1290033D754 /* ViewController.m in Sources */,
+				49BDFD241775B5EE005D92D5 /* StadiumTableViewController.m in Sources */,
+				49BDFD271775B890005D92D5 /* Stadium.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
