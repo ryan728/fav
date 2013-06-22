@@ -166,20 +166,6 @@
             </objects>
             <point key="canvasLocation" x="604" y="46"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Dsy-cb-nFz">
-            <objects>
-                <viewController id="WwZ-4u-TYL" sceneMemberID="viewController">
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Th8-cn-cps">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zl4-0H-XIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="nfl.jpeg" width="197" height="255"/>
