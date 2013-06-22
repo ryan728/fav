@@ -1,0 +1,13 @@
+//
+//  ViewController.h
+//  fav
+//
+//  Created by lei on 6/22/13.
+//  Copyright (c) 2013 lei. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+@end
